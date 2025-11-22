@@ -2,8 +2,8 @@ name: Daily Chess Video
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # كل يوم الساعة 18:00 UTC
-  workflow_dispatch:        # تقدر تشغّله يدوي من GitHub
+    - cron: "0 18 * * *"   # kl 18:00 UTC
+  workflow_dispatch:        # We can run it manually from GitHub
 
 jobs:
   build-generate-video:
